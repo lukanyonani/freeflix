@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "364959079539",
+    "project_id": "freef-faee9",
+    "storage_bucket": "freef-faee9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364959079539:android:f6f154dd5cd54ff8f1de06",
+        "android_client_info": {
+          "package_name": "com.example.freeflix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDTa4fc1rq_rjHUSdJXWDKtuMLDlbWyrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
