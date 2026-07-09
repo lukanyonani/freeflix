@@ -1,16 +1,38 @@
-# freeflix
+# FreeFlix
 
-A new Flutter project.
+A Flutter streaming app for browsing and watching movies, TV shows, and anime, with a responsive layout that adapts across mobile, tablet, and desktop.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Browse movies, TV shows, and anime with carousels and search
+- Responsive UI: dedicated layouts for mobile, tablet, and desktop
+- In-app video playback via `flutter_inappwebview`
+- Fullscreen playback support
+- Firebase Analytics integration and AdMob ads
 
-A few resources to get you started if this is your first Flutter project:
+## Tech stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**, using **GetX** for routing/bindings and **Riverpod** for state management
+- **Firebase Core / Analytics**
+- **google_mobile_ads** for monetization
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project layout
+
+```
+lib/
+  app/            # bindings, routes, constants
+  data/            # API clients (movies, TV, anime, video sources)
+  models/           # data models
+  providers/         # Riverpod providers
+  viewmodels/         # view models
+  views/            # screens, organized by feature and responsive layout
+```
+
+## Getting started
+
+```bash
+flutter pub get
+flutter run
+```
+
+Requires Firebase configuration (`firebase_options.dart`) for your own project if you fork this.
